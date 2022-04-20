@@ -1,0 +1,270 @@
+body,html {
+    padding: 0;
+    margin: 0;
+    font-family:-apple-system, Blink   MacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+ 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(240deg 19% 41%);
+   
+}
+
+body:hover {
+  cursor: pointer;  
+}
+
+.boxes {
+    display: flex; 
+    justify-content: center;
+    margin-top: 6rem; 
+}
+
+.box1 {
+    height: 9vh;
+    width: 5vw;
+    background-color: hsl(237deg 15% 28%); 
+    border-right: 1px solid hsl(238deg 14% 39%);
+    display: flex;
+    justify-content: center;
+} 
+
+.event {
+    height: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.finance {
+    height: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.cafe {
+    height: 2rem;
+    margin-top: 1.8rem;
+}
+
+.gift {
+    height: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.pets {
+    height: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+
+.box2 {
+    height: 9vh;
+    width: 5vw;
+    background-color: hsl(237deg 15% 28%);
+    display: flex;
+    justify-content: center;
+      
+}
+
+.box3 {
+    height: 12vh;
+    width: 7vw;
+    background-color: black;
+    margin-top: -.6rem;
+    display: flex;
+    justify-content: center
+    
+
+
+ }
+
+.box4 {
+    height: 9vh;
+    width: 5vw;
+    background-color: hsl(237deg 15% 28%);
+    display: flex;
+    justify-content: center;   
+}
+
+.box5 {
+    height: 9vh;
+    width: 5vw;
+    background-color: hsl(237deg 15% 28%);
+    border-left: 1px solid hsl(238deg 14% 39%);
+    display: flex;
+    justify-content: center;
+            
+}
+
+#event:hover {
+    color: blue;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+
+.center {
+    height: 54vh;
+    width: 20vw;
+    margin-top: 1rem;    
+    background-repeat: no-repeat;
+}
+.top{
+    background-image: url(./img/food.jpg);
+    height: 40%;
+    background-size: cover;
+    background-position-y: -1.6rem
+
+}
+
+
+.bottom {
+    background-color: white;
+    height: 60%;
+
+}
+
+.text {
+    margin-left: 1rem;
+    padding-top: 4.8rem;
+    
+}
+
+.two {
+    display: flex;
+}
+
+.ffo {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: .3rem;
+}
+
+.ma {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    margin-left: .1rem;
+    /* margin-top: .2rem; */
+
+}
+
+.location {
+    height: 1.2rem;
+    
+}
+
+.pizza {
+    border-bottom: 1px solid rgb(207, 211, 215);
+    padding-top: 1rem;
+    padding-bottom: 1.3rem;
+    padding-left: 1.5rem;
+    color:  rgb(189, 185, 185);
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.sushi {
+    border-bottom: 1px solid rgb(207, 211, 215);
+    padding-top: 1rem;
+    padding-bottom: 1.3rem;
+    padding-left: 1.3rem;
+    color: rgb(189, 185, 185);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gourmet {
+    border-bottom: 1px solid rgb(207, 211, 215);
+    padding-top: 1rem;
+    padding-bottom: 1.3rem;
+    padding-left: 1.5rem;
+    color:  rgb(189, 185, 185);
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.burger {
+    padding-top: 1rem;
+    padding-bottom: 1.3rem;
+    padding-left: 1.5rem;
+    color:  rgb(189, 185, 185);
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+
+.num1 {
+    margin-left: 13rem; 
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.num2 {
+    margin-left: 13.5rem;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.num3 {
+    margin-left: 11.3rem;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.num4 {
+    margin-left: 12rem;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.num1:hover { 
+     color: black; 
+}
+
+.num2:hover { 
+    color: black; 
+}
+
+.num3:hover { 
+    color: black; 
+}
+
+.num4:hover { 
+    color: black; 
+}
+
+.boxes:hover {
+    color: red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
